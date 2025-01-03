@@ -1,0 +1,94 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.30.2-'s-Hertogenbosch">
+  <identifier>NFDB_point_20240613_large_fires</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>NFDB_point_20240613_large_fires</title>
+  <abstract>The Canadian National Fire Database (CNFDB) Fire Point and Polygon Data is a collection of forest fire locations and fire perimeters as provided by Canadian fire management agencies including provinces, territories, and Parks Canada.
+To create the Canada-wide product, the data collected from each agency are projected into a common format and combined with data from other agencies; attribute fields are standardized; agency specific attribute fields are removed; and polygon areas are calculated using GIS. 
+Note that the data contained in the CNFDB are not complete nor are they without error. Locations are approximate. Not all fires have been mapped, and data accuracy varies due to different mapping techniques. This collection includes only data that has been contributed by the agencies. Data completeness and quality vary among agencies and between years. 
+For analyses for a single province or territory or for Parks Canada, we suggest you contact the appropriate agency. Links to the agency web sites can be foundat https://cwfis.cfs.nrcan.gc.caor can be found through the Canadian Interagency Forest Fire Centre (CIFFC) website at http://www.ciffc.ca
+The database is a large collaborative effort by all Canadian fire agencies. We thank the many individuals who contributed to this effort, including fire crews, field personnel, photo interpreters, pilots, digitizers, and analysts. Compilation of the Canada-wide database was partially supported by the Canadian government programs of ENFOR (ENergy from the FORest), the Program on Energy Research and Development, the Climate Change Action Fund, and Action Plan 2000. 
+Note that the "large fire" version of the database includes only large fires greater than 200 hectares (as reported by agency) — these represent a small percentage of all fires but account for most of the area burned (usually more than 97%).
+=============================================================================================
+CNFDB – Agency PointData contains data for the following agencies and years: 
+BC 1950-2023
+AB 1959-2023
+SK 1959-2023*
+MB 1959-2023*
+ON 1959-2023*
+QC 1959-2023*
+NS 1960-2023*
+NB 1980-2023*
+NL 1955-2023*
+YT 1946-2023
+NT 1959-2023
+PEI 2018-2023*
+PC 1946-2023
+*Dataset may have missing years or incomplete data. See more details under Resource Details-Supplemental Information
+=============================================================================================
+Les données ponctuelles et polygonales de la BNDFFC sont recueillies auprès des agences de gestion des feux de forêt, y compris celles des provinces et territoires et Parcs Canada. Pour obtenir un produit pancanadien, les données recueillies auprès de chaque agence sont projetées dans un format commun et combinées aux données d’autres agences, les champs d’attributs sont normalisés, les champs d’attributs propres à une agence sont supprimés, et la superficie des polygones est calculée à l’aide d’un SIG.
+Il est à noter que les données contenues dans la BNDFFC ne sont ni exhaustives ni sans erreur. Tous les feux n’ont pas été cartographiés, et l’exactitude des données varie selon les différentes techniques de cartographie. Cette base de données ne contient que les données fournies par les agences. L’exhaustivité et la qualité des données peuvent varier d’une agence et d’une année à l’autre.
+Pour obtenir des analyses à l’égard d’une province ou d’un territoire unique ou de Parcs Canada, communiquez avec l’agence responsable appropriée. Les liens aux sites Web des agences sont disponibles via le Centre interservices des feux de forêt du Canada (CIFFC).
+Cette base de données est le fruit d'un travail de collaboration entre tous les organismes de lutte contreles incendies du Canada. Nous remercions tous ceux qui ont contribué au projet, notamment les équipes de pompiers, le personnel de terrain, le personnel de photo-interprétation, les pilotes, les responsables de la numérisation et les analystes. Le travail de compilation de cette base de données à l'échelle canadienne est appuyé par les programmes canadiens ENFOR (Programme de l'énergie forestière) et PERD (Programme de recherche et développement énergétique) et par le Fonds d'action sur le changement climatique et le Plan d'action 2000.
+
+The Canadian National Fire Database (CNFDB) Fire Point and Polygon Data is a collection of forest fire locations and fire perimeters as provided by Canadian fire management agencies including provinces, territories, and Parks Canada. The forest fire data contained in the CNFDB have a wide range of uses including national scale mapping, statistical and spatial analysis and research involving natural disturbance. Note that the "large fire" version of the database includes only large fires greater than 200 hectares (as reported by agency) — these represent a small percentage of all fires but account for most of the area burned (usually more than 97%).
+
+Collection status and version notes regarding data updates and sources: BC: - BC fire data updates downloaded from DataBC website https://catalogue.data.gov.bc.ca/; - This version includes BC points for 1950-2023; - Fire point data for 2023 have been updated in this version using source data; - Only records included where FIRE_TYPE = "fire" in source data; - The BC fire data is published by the BC Ministry of Forests, Lands and Natural Resource Operations - BC Wildfire Service Licensed under Open Government License - British Columbia -- https://catalogue.data.gov.bc.ca/ AB: - AB fire data updates obtained from https://www.alberta.ca/wildfire-maps-and-data - This version includes AB points for 1959-2023; - Fire point data for 2023 have been updated in this version using source data; SK: - SK fire data updates provided by agency; - This version of NFDB points includes SK points for 1959-2023; - Fire point data for 2023 have been updated in this version using source data; - Note that years 1959-1980 are incomplete as these years include only large fires > 200ha; MB: - MB fire data updates obtained from Manitoba Conservation Fire Program; - This version includes MB fire point data for years 1959-2023; - 2023 MB fire polygon centroids were used for this version; - Note that years 1959-1967 are incomplete as these years include only large fires > 200ha; - Also note that fire point data for 2000-2004 is not available from source agency, therefore point data (for 2000-2004) has been derived using fire polygon centroids; ON: - ON fire data updates downloaded from Ontario LIO website https://geohub.lio.gov.on.ca/; - This version includes ON fire point data for years 1959-2023; - Fire point data for 1976-2023 have been updated in this version using source data; - Note that years 1959-1975 are incomplete as these years include only large fires > 200 ha; - Note that the Ontario fire data has been produced by Natural Resources Canada under Licence with the Ontario Ministry of Natural Resources © Queen’s Printer for Ontario, 2024; QC: - QC fire data updates downloaded from https://www.donneesquebec.ca/ - This version includes QC fire point data for years 1959-2023; - 2023 QC fire point data updates were added to this version; - Note that years 1959-1971 include only data for large fires > 200 ha; - The Quebec open data licence agreement is available here https://www.donneesquebec.ca/fr/licence/#cc-by NS: - NS fire data updates provided by agency; - 2022 NS fire point data updates were added to this version; - This version includes NS fire point data for years 1960, 1961, 1963, 1980, 1987-2023; - Years 1960-1984 are incomplete as these years include only large fires > 200 ha; NB: - NB fire data updates provided by agency; - 2022 NB fire point data updates were added to this version; - This version includes NB fire point data for years 1980, 1982, 1983, 1985-2023; - Note that years 200 ha; PEI: - No 2021 fire data updates were collected from PEI; - This version includes PEI fire point data for years 2018-2023; - 2020-2023 PEI fire point data updates were added to this version; YT: - YT fire data updates downloaded from https://mapservices.gov.yk.ca/; - This version includes YT fire point data for years 1946-2023; - 2023 YT fire point data updates were added to this version; NT: - NT fire data updates provided by agency; - This version includes NT fire point data for years 1959-2023; - 2023 NT fire point data updates were added to this version; - Agency abbreviation changed from 'NWT' to 'NT' in this version to correspond with standard naming convention. PC: - Parks fire data updates provided by agency; - 2023 PC fire point data updates were added to this version; - This version includes PC fire point data for years 1946-2023; </abstract>
+  <keywords vocabulary="Suchschlüssel">
+    <keyword>forest fires</keyword>
+    <keyword>wildland fires</keyword>
+    <keyword>wildfires</keyword>
+    <keyword>fire location</keyword>
+    <keyword>fire point data</keyword>
+    <keyword>fire history</keyword>
+    <keyword>natural disturbance</keyword>
+    <keyword>Canada</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>forest fires, wildland fires, wildfires, fire locations, fire point data, fire history, natural disturbance</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>physical</type>
+      <address>5320-122 Street</address>
+      <city>Edmonton</city>
+      <administrativearea>Alberta</administrativearea>
+      <postalcode>T6H 3S5</postalcode>
+      <country>CA</country>
+    </contactAddress>
+    <name>John Little</name>
+    <organization>Government of Canada; Natural Resources Canada; Canadian Forest</organization>
+    <position>Spatial Data Analyst</position>
+    <voice>825-510-1166</voice>
+    <fax></fax>
+    <email>john.little@nrcan-rncan.gc.ca</email>
+    <role></role>
+  </contact>
+  <links/>
+  <dates/>
+  <fees></fees>
+  <constraints type="Nutzungseinschränkungen">The Data shall only be used for mapping activities and analysis, research, evaluation and display. The End-User agrees not to misrepresent or falsely modify the Data in any way. When the Data is displayed, in print, electronically, or otherwise, the source (i.e., Natural Resources Canada) must be acknowledged.</constraints>
+  <rights>The database is a large collaborative effort by all Canadian fire agencies. Links to the agency web sites can be found https://cwfis.cfs.nrcan.gc.ca or can be found through the Canadian Interagency Forest Fire Centre (CIFFC) website at http://www.ciffc.ca. &#xd;
+We thank the many individuals who contributed to this effort, including fire crews, field personnel, photo interpreters, pilots, digitizers, and analysts. Compilation of the Canada-wide database was partially supported by the Canadian government programs of ENFOR (ENergy from the FORest), the Program on Energy Research and Development, the Climate Change Action Fund, and Action Plan 2000.&#xd;
+&#xd;
+When using these data for mapping activities and analysis, research, evaluation or display, please acknowledged the source using the following citation: Canadian Forest Service. 2024. Canadian National Fire Database – Agency Fire Data. Natural Resources Canada, Canadian Forest Service, Northern Forestry Centre, Edmonton, Alberta. https://cwfis.cfs.nrcan.gc.ca.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["NAD83 / Canada Atlas Lambert",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["Canada Atlas Lambert",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",49,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-95,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",49,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",77,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",0,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",0,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Transformation of coordinates at 5m level of accuracy."],AREA["Canada - onshore and offshore - Alberta; British Columbia; Manitoba; New Brunswick; Newfoundland and Labrador; Northwest Territories; Nova Scotia; Nunavut; Ontario; Prince Edward Island; Quebec; Saskatchewan; Yukon."],BBOX[38.21,-141.01,86.46,-40.73]],ID["EPSG",3978]]</wkt>
+      <proj4>+proj=lcc +lat_0=49 +lon_0=-95 +lat_1=49 +lat_2=77 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs</proj4>
+      <srsid>27401</srsid>
+      <srid>3978</srid>
+      <authid>EPSG:3978</authid>
+      <description>NAD83 / Canada Atlas Lambert</description>
+      <projectionacronym>lcc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial minx="-180" crs="EPSG:4326" maxx="180" miny="-6.11415299999999995" maxz="0" dimensions="2" maxy="89.99999800000000505" minz="0"/>
+  </extent>
+</qgis>
